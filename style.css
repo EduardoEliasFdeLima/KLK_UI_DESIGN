@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+
+body{
+    overflow: hidden; 
+    height: 100vh;
+    background: #E7E7E7;
+}
+
+.main-contain{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.background-titles{
+    width: 62%;
+    height: 100vh;
+    order: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+
+
+
+.background-titles .titles{
+    width: max-content;
+    height: max-content;
+    font-size: 8rem;
+    line-height: 8rem;
+    overflow: hidden;    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla';
+    font-weight: 800;
+}
+
+
+.background-titles .text{
+    user-select: none;
+    width: max-content;
+    margin-left: 20px;
+    animation: bottomtotop 18s linear infinite;    
+}
+
+
+.background-titles .textt{   
+    user-select: none;
+    width: max-content;
+    margin-left: 20px;
+    animation: toptobottom 15s linear infinite ;
+    
+}
+
+
+@keyframes bottomtotop {
+    0%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform: translateX(-20%);
+    }
+
+}
+
+@keyframes toptobottom {
+    0%{
+        transform: translateX(-20%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+
+}
+
+
+.backlright{
+    font-family: 'Poppins';
+    padding-top: 170px;
+    width: 500px;
+    color: #8f8989;
+}
+
+
+.backlright p{
+    color: #7b7979;
+    font-family: 'Karla';
+    font-size: 20px;
+}
+
+.backlright h1{
+    font-size: 60px;
+}
+
+
+.backlright button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 16px;
+    transition: .5s;
+    user-select: none;  
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.Menu{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    cursor: pointer;
+}
+
+
+.Menu i{
+    font-size: 30px;
+    color: #434343;
+}
+
+
+.rl{
+    position: relative;
+}
+
+
+@media screen and (max-width: 700px) {
+       
+    .backlright p{
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+
+        
+    .Menu{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+   
+    }
+
+        
+    .Menu i{
+        font-size: 20px;
+    }
+
+    .backlright{
+        padding-top: 30px;
+    }
+
+        
+    .backlright h1{
+        font-size: 40px;
+    }
+
+
+
+        
+    .backlright p{
+        font-size: 16px;
+        width: 100%;
+    }
+
+
+        
+    .backlright button{
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+}

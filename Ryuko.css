@@ -1,0 +1,258 @@
+
+.background-titles{
+    background: linear-gradient(16deg, #8C140C, #AA261D);
+}
+
+
+
+
+.background-titles .titles{
+    transform: rotate(-75deg) translateX(-10px) translateY(-530px);
+    color: #93160D;
+}
+
+
+.backimg{
+    position: absolute;
+    bottom: -1px;
+    height: 82vh;
+    left: 12%;    
+}
+
+.backimg img{
+    height: 100%;
+    user-select: none;
+}
+
+
+.backlright span{
+    color: #8C140C;
+}
+
+.backlright button{
+    background: #9f1b11;   
+}
+
+
+.backlright button:hover{
+    background: #76150e;
+    
+}
+
+
+@media screen and (max-width: 1400px) {
+        
+    .backimg{
+        position: absolute;
+        bottom: -1px;
+        height: 80vh;
+        left: 5%;
+    }
+
+        
+    .backlright{
+        padding-top: 170px;
+        width: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .main-contain{
+        overflow: hidden;
+    }
+        
+    .backimg{
+        height: 70vh;
+    }
+
+    .backimg img{
+        width: 90%;
+    }
+
+        
+    .backlright h1{
+        font-size: 50px;
+    }
+
+        
+    .backlright p{
+        font-size: 17px;
+    }
+
+        
+    .backlright{
+        padding-top: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    
+
+    .background-titles{
+        width: 60%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .main-contain{
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .rl{
+        order:  1;
+    }
+
+        
+    .background-titles{
+        width: 100%;
+        order: 2;
+        clip-path: polygon(0 26%, 100% 7%, 100% 100%, 0% 100%);
+    }
+
+        
+    .backlright{
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+            
+        .backimg{
+            position: absolute;
+            bottom: -1px;
+            height: 65vh;
+            width: 80%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 99;
+        }
+
+        .backimg img{
+            width: auto;
+            height: 100%;
+            user-select: none;
+            
+        }
+            
+            
+            
+
+    .background-titles .titles{
+        
+        width: max-content;
+        margin-left: -30px;
+        height: max-content;
+        font-size: 8rem;
+        line-height: 8rem;
+        overflow: hidden;
+
+    }
+
+        
+    .Menu{
+        right: 20px;
+    }
+
+
+    .backlright p{
+        font-size: 20px;
+        width: 70%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+       
+    .backlright p{
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    .main-contain{
+        margin: 0;
+    }
+          
+    .backimg{
+        width: 100%;
+        height: auto;
+        bottom: -5px;
+        z-index: 99;
+    }
+
+    .backimg img{
+        width: 100%;
+        z-index: 9999;
+        user-select: none;      
+    }
+
+
+    .background-titles .titles{
+        font-size: 5rem;
+        line-height: 5rem;
+        transform: rotate(-75deg) translateX(-10px) translateY(-280px);
+    }
+
+        
+    .Menu{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+        
+    .Menu i{
+        font-size: 20px;
+    }
+
+    .backlright{
+        padding-top: 30px;
+    }
+
+        
+    .backlright h1{
+        font-size: 40px;
+    }
+
+    .backlright span{
+        color: #8C140C;
+    }
+
+        
+    .backlright p{
+        font-size: 16px;
+        width: 100%;
+    }
+
+
+        
+    .backlright button{
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+}
