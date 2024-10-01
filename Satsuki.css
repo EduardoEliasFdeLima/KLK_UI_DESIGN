@@ -195,7 +195,7 @@
     .backimg{
         width: 70%;
         height: auto;
-        bottom: -5px;
+        bottom: 0;
         z-index: 99;
     }
 
