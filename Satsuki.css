@@ -118,6 +118,7 @@
         
     .background-titles{
         width: 100%;
+        /* height: auto; */
         height: 100%;
         order: 2;
         clip-path: polygon(0 26%, 100% 7%, 100% 100%, 0% 100%);
@@ -134,15 +135,15 @@
             
     .backimg{
         position: absolute;
-        bottom: -1px;
         height: 65vh;
-        width: 80%;
+        /* width: 80%; */
         left: 50%;
         transform: translateX(-50%);
         z-index: 99;
     }
 
     .backimg img{
+        z-index: 100;
         width: auto;
         height: 100%;
         user-select: none;
@@ -192,18 +193,18 @@
     .main-contain{
         margin: 0;
     }
-          
+   
     .backimg{
-        width: 70%;
-        height: auto;
+        position: absolute;
         bottom: 0;
+        height: 65vh;
         z-index: 99;
     }
 
     .backimg img{
-        width: 100%;
-        z-index: 9999;
-        user-select: none;
+        z-index: 100;
+        width: auto;
+        height: 100%;
     }
 
 
