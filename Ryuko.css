@@ -1,16 +1,11 @@
-
 .background-titles{
     background: linear-gradient(16deg, #8C140C, #AA261D);
 }
-
-
-
 
 .background-titles .titles{
     transform: rotate(-75deg) translateX(-10px) translateY(-530px);
     color: #93160D;
 }
-
 
 .backimg{
     position: absolute;
@@ -33,12 +28,10 @@
     background: #9f1b11;   
 }
 
-
 .backlright button:hover{
     background: #76150e;
     
 }
-
 
 @media screen and (max-width: 1400px) {
         
@@ -109,13 +102,11 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-       
     }
 
     .rl{
         order:  1;
     }
-
         
     .background-titles{
         width: 100%;
@@ -135,15 +126,14 @@
             
         .backimg{
             position: absolute;
-            bottom: -1px;
             height: 65vh;
-            width: 80%;
             left: 50%;
             transform: translateX(-50%);
             z-index: 99;
         }
 
         .backimg img{
+            z-index: 100;
             width: auto;
             height: 100%;
             user-select: none;
@@ -194,18 +184,24 @@
     .main-contain{
         margin: 0;
     }
-          
+        
+   
     .backimg{
-        width: 100%;
-        height: auto;
+        position: absolute;
         bottom: 0;
+        height: 65vh;
+        transform: 0;
         z-index: 99;
+        background-color: none;
     }
 
     .backimg img{
-        width: 100%;
-        z-index: 9999;
-        user-select: none;      
+        z-index: 100;
+        width: auto;
+        
+        height: 100%;
+        user-select: none;
+        
     }
 
 
