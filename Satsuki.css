@@ -262,3 +262,12 @@
     }
 
 }
+
+
+
+@media screen and (max-width: 430px) {
+    .backimg{
+        height: 50%;
+    }
+
+}
