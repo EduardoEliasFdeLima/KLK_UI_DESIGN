@@ -262,8 +262,17 @@
 
 
 @media screen and (max-width: 430px) {
-    .backimg{
-        height: 50%;
+   
+
+    body{
+        position: relative;
+        height: auto;
+     }
+     
+
+    .main-contain{
+        /* height: auto;  */
+        height: 100%;
     }
 
 }
