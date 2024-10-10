@@ -264,15 +264,6 @@
 @media screen and (max-width: 430px) {
    
 
-    body{
-        position: relative;
-        height: auto;
-     }
-     
-
-    .main-contain{
-        /* height: auto;  */
-        height: 100%;
-    }
+  
 
 }
