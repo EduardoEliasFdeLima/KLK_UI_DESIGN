@@ -266,6 +266,13 @@
 
 
 @media screen and (max-width: 430px) {
-
+    body{
+        overflow: hidden;
+     }
+     
+    .backimg{
+        height: 50%;
+     
+    }
 
 }
