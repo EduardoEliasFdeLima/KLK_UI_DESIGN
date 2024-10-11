@@ -265,4 +265,9 @@
     body{
         overflow: hidden;
      }
+     
+    .backimg{
+        height: 50%;
+     
+    }
 }
